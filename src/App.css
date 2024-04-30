@@ -7,8 +7,19 @@
   color: #fff;
 }
 
+.all {
+  border-radius: 20px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 350px;
+  height: 700px;
+  margin-top: 0px;
+}
+
 .inicio {
-  background: black;
+  background: #ffffff;
   width: 100%;
   height: 100vh;
   display: flex;
@@ -26,13 +37,17 @@
 .img img {
   width: 200px;
   height: 200px;
-  filter: drop-shadow(0 0 18px rgb(0, 255, 13));
+  margin-top: -20px;
+  filter: drop-shadow(0 0 8px rgba(0, 0, 0, 0.61));
 }
 
 .titulo {
   font-family: Poppins;
   font-weight: 600;
-  margin: 20px
+  margin: 20px;
+  color: black;
+  font-size: 25px;
+  margin-top: 0px;
 }
 
   .btn-links {
@@ -42,54 +57,89 @@
   }
 
   .btn {
-    width: 200px;
-    height: 30px;
-    border: 1px solid lime;
-    border-radius: 10px;
-    box-shadow: 0 0 8px lime;
+    width: 250px;
+    height: 35px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 0 8px rgba(39, 39, 39, 0.781);
     text-align: center;
     padding-top: 5px;
     margin: 5px;
-    background-color: transparent;
+    background-color: #000000;
     font-size: 15px;
     font-weight: bold;
     text-decoration: none;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    }
+
+    .btn a {
+      margin-left: 130px;
+    }
+
+  .btn2a {
+    margin-left: 135px;
+    letter-spacing: 1px;
+  }
+
+  .vicon {
+    color: black;
+    
+  }
+
+  .wicon1 {
+    font-size: 20px;
+    margin-right: 96px;
+       
+  }
+  .wicon {
+    font-size: 20px;
+    margin-right: 75px;
+       
+  }
+
+  .wicon h1 {
+    text-align: center;
+    padding-left: 50px;
   }
   
-  .btn2 {
-    width: 200px;
-    height: 35px;
-    border: 1px solid lime;
-    border-radius: 10px;
-    box-shadow: 0 0 8px lime;
-    text-align: center;
-    padding-top: 5px;
-    margin: 5px;
-    background-color: transparent;
-    font-size: 15px;
-    padding-bottom: 5px;
-    font-weight: bold;
+  .wicon2 {
+    font-size: 20px;
+    margin-right: 75px;
+    margin-top: 5px;
+  }
+
+  
+
+  .fai {
+    margin-right: 30px;
+    font-size: 25px;
+    margin-left: 5px;
+    margin-top: 20px;
+    padding-top: 10px;
+  }
+
+  .btn a {
+    color: rgb(255, 255, 255);
   }
   
 .btn:hover {
-  color: #fff;
-  text-shadow: 0 0 8px;
-}
-.btn2:hover {
-  color: #fff;
+  color: rgb(255, 255, 255);
   text-shadow: 0 0 8px;
 }
 
 a {
   text-decoration: none;
+  color: black;
 }
 
-.fai {
-  margin-right: 10px;
-  font-size: 25px;
-  margin: 10px;
-  margin-bottom: 20px;
+p {
+  color: black;
+  font-family: Poppins;
+  font-weight: 700;
 }
+
 
 .insights h1 {
   text-align: center;
@@ -112,12 +162,34 @@ a {
   margin-top: 5px;
 }
 
+.parceiros h1 {
+  color: black;
+  font-size: Poppins;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  padding-top: 5px;
+  margin: 5px;
+}
+
+
 
 
 /*  Versão Mobile  */
 
 @media screen and (max-width: 730px) {
 
+  .all {
+    width: 80%;
+    height: 500px;
+    border: none;
+    margin-top: 60px;
+  }
+
+  .titulo{
+    font-size: 30px;
+    margin-bottom: 0px;
+  }
   .img {
     margin-top: -30%;
   }
@@ -127,14 +199,24 @@ a {
   }
   .btn {
     width: 250px;
-    font-size: 20px;
+    font-size: 17px;
     height: 40px;
     margin-top: 10px;
+    font-weight: 600;
+
   }
-  .btn2 {
-    width: 250px;
-    font-size: 20px;
-    height: 45px;
-    margin-top: 10px;
+
+  .wicon {
+    font-size: 25px;
   }
+
+  .wicon1 {
+
+  }
+
+  
+}
+
+.wicon {
+  color: black;
 }
