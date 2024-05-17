@@ -1,222 +1,70 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Jost:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
 
 * {
-  padding: 0;
   margin: 0;
+  padding: 0;
   font-family: Poppins;
-  color: #fff;
 }
 
-.all {
-  border-radius: 20px;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  padding: 20px;
-  width: 350px;
-  height: 700px;
-  margin-top: 0px;
-}
-
-.inicio {
-  background: #ffffff;
+.links-page {
   width: 100%;
-  height: 100vh;
+  height: 150vh;
+  background: rgb(245, 245, 245);
+  display: flex;
+  justify-content: center;
+}
+.links-container {
+  height: 99.7%;
+  width: 30%;
+}
+.links-container h1 {
+  text-align: center;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.links-img {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.links-img img {
+  width: 150px;
+  border-radius: 50%;
+  filter: drop-shadow( 0 0 8px);
+}
+.links-button {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  margin: 10px;
 }
-
-.img {
-  width: 300px;
-  display: flex;
-  justify-content: center;
-}
-
-.img img {
+.button {
   width: 200px;
-  height: 200px;
-  margin-top: -20px;
-  filter: drop-shadow(0 0 8px rgba(0, 0, 0, 0.61));
+  height: 40px;
+  border: 1px solid;
+  border-radius: 5px;
+  margin: 5px;
+  box-shadow: 0 0 8px ;
+  align-items: center;
+  display: flex;
 }
-
-.titulo {
-  font-family: Poppins;
-  font-weight: 600;
-  margin: 20px;
-  color: black;
-  font-size: 25px;
-  margin-top: 0px;
-}
-
-  .btn-links {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  .btn {
-    width: 250px;
-    height: 35px;
-    border: none;
-    border-radius: 20px;
-    box-shadow: 0 0 8px rgba(39, 39, 39, 0.781);
-    text-align: center;
-    padding-top: 5px;
-    margin: 5px;
-    background-color: #000000;
-    font-size: 15px;
-    font-weight: bold;
-    text-decoration: none;
-    color: #fff;
-    display: flex;
-    justify-content: space-around;
-    }
-
-    .btn a {
-      margin-left: 130px;
-    }
-
-  .btn2a {
-    margin-left: 135px;
-    letter-spacing: 1px;
-  }
-
-  .vicon {
-    color: black;
-    
-  }
-
-  .wicon1 {
-    font-size: 20px;
-    margin-right: 96px;
-       
-  }
-  .wicon {
-    font-size: 20px;
-    margin-right: 75px;
-       
-  }
-
-  .wicon h1 {
-    text-align: center;
-    padding-left: 50px;
-  }
-  
-  .wicon2 {
-    font-size: 20px;
-    margin-right: 75px;
-    margin-top: 5px;
-  }
-
-  
-
-  .fai {
-    margin-right: 30px;
-    font-size: 25px;
-    margin-left: 5px;
-    margin-top: 20px;
-    padding-top: 10px;
-  }
-
-  .btn a {
-    color: rgb(255, 255, 255);
-  }
-  
-.btn:hover {
-  color: rgb(255, 255, 255);
-  text-shadow: 0 0 8px;
-}
-
-a {
+.button a {
   text-decoration: none;
   color: black;
-}
-
-p {
-  color: black;
-  font-family: Poppins;
-  font-weight: 700;
-}
-
-
-.insights h1 {
-  text-align: center;
-  padding-top: 10px;
-}
-.fai2 {
-  font-size: 25px;
-  margin-right: 20px;
-  margin-top: 5px;
-}
-
-.card1 {
   display: flex;
-  /* flex-direction: column; */
-  margin-top: 20px;
 }
-
-.card1 p {
+.button h1 {
+  font-size: 20px;
+  margin: 0;
+  margin-left: 20px;
+}
+.button h1:hover {
+  text-shadow: 0 0 8px;
+  color: rgb(255, 72, 0);
+}
+.ico {
+  font-size: 20px;
   margin-left: 10px;
-  margin-top: 5px;
 }
 
-.parceiros h1 {
-  color: black;
-  font-size: Poppins;
-  text-align: center;
-  margin-top: 30px;
-  margin-bottom: 20px;
-  padding-top: 5px;
-  margin: 5px;
-}
-
-
-
-
-/*  Versão Mobile  */
-
-@media screen and (max-width: 730px) {
-
-  .all {
-    width: 80%;
-    height: 500px;
-    border: none;
-    margin-top: 60px;
-  }
-
-  .titulo{
-    font-size: 30px;
-    margin-bottom: 0px;
-  }
-  .img {
-    margin-top: -30%;
-  }
-
-  .insights {
-    margin-top: 20px;
-  }
-  .btn {
-    width: 250px;
-    font-size: 17px;
-    height: 40px;
-    margin-top: 10px;
-    font-weight: 600;
-
-  }
-
-  .wicon {
-    font-size: 25px;
-  }
-
-  .wicon1 {
-
-  }
-
-  
-}
-
-.wicon {
-  color: black;
-}
