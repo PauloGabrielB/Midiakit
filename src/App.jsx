@@ -24,7 +24,7 @@ function App() {
             </div>
             <h1>Links :</h1>
             <div className="links-button">
-              <div className="button"><TbPigMoney className='ico' /><a href=" https://wa.me/55085991856914"><h1>Minha Rifa</h1></a></div>
+              <div className="button"><TbPigMoney className='ico' /><a href="https://rifa.digital/s/HMiySs5haUu"><h1>Minha Rifa</h1></a></div>
               <div className="button"><CgWebsite className='ico' /><a href={file}><h1>Mídia Kit</h1></a></div>
               <div className="button"><FaInstagram className='ico' /><a href="https://www.instagram.com/vividaninja?igsh=MTJwNmg1bGd5bWNzag%3D%3D&utm_source=qr"><h1>Instagram</h1></a></div>
               <div className="button"><FaTiktok className='ico' /><a href="https://www.tiktok.com/@vividaninja?_t=8lX3prbmDYc&_r=1"><h1>TikTok</h1></a></div>
