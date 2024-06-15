@@ -33,7 +33,6 @@ function App() {
               <div className="button"><FaPinterest className='ico' /><a href="https://www.tiktok.com/@vividaninja?_t=8lX3prbmDYc&_r=1"><h1>Pinterest</h1></a></div>
               <h1 className='parceiros'>Parceiros :</h1>
               <div className="button"><TbHelmet className='ico' /><a href="https://www.tiktok.com/@vividaninja?_t=8lX3prbmDYc&_r=1"><h1>Race Tech</h1></a></div>
-              <div className="button"><GiSamusHelmet className='ico' /><a href="https://www.instagram.com/linkaknit?igsh=MWp4d2J2dDFqYXk5OQ=="><h1>Linka Knit</h1></a></div>
               <div className="button"><GiJewelCrown className='ico' /><a href="https://www.instagram.com/hira_semijoias?igsh=MWJhMDZiODNsaWx1dg=="><h1>Hira Semijoias</h1></a></div>
             </div>
         </div>
